@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: end;
+    flex-wrap: wrap;
+}
+footer{
+    flex: 0 0 100%;
+    display: flex;
+    background: url(../images/pngtree-christmas-art-ribbon-red-background-picture-image_1460506.png) no-repeat center/cover;
+    min-height: 200px;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 25%;
+    flex-wrap: wrap;
+}
+div > h1{
+    color: rgb(255, 255, 255);
+}
+div > a{
+    flex: 1 0 10%;
+    width: 200px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
